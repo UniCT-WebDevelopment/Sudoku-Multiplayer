@@ -1,0 +1,132 @@
+
+.buttons-container {
+    max-width: 570px;
+}
+@media only screen and (min-width: 768px) {
+    .buttons-container {
+        width: 202px !important;
+        max-width: 202px !important;
+        min-width: 202px !important;
+    }
+}
+
+.selected {
+    border: 5px solid rgb(186, 186, 161) !important;
+    z-index: 2;
+}
+.selected-left {
+    border-left: 5px solid transparent !important;
+}
+.selected-right {
+    border-right: 5px solid transparent !important;
+}
+.selected-above {
+    border-top: 5px solid transparent !important;
+}
+.selected-below {
+    border-bottom: 5px solid transparent !important;
+}
+
+.solution {
+    color: #617bfd;
+    /* color: rgb(50, 140, 255); */
+}
+.solution.highlight {
+    color: #4b5b45;
+}
+
+.solution.error {
+    color: red !important;
+}
+
+.correct-solution.error {
+    color: yellow !important;
+}
+
+.border-box-shadow {
+    /* box-shadow: 0 0 0 1px white; */
+    box-shadow: 0 0 0 1px rgb(100, 100, 100);
+}
+
+.color {
+    position: absolute;
+    z-index: 0;
+    width: 60px;
+    height: 60px;
+    max-width: 11vw;
+    max-height: 11vw;
+    pointer-events: none;
+    opacity: 0.1;
+}
+
+.green {
+    background-color: rgb(113, 175, 113);
+}
+.yellow {
+    background-color: rgb(255, 255, 176);
+}
+.purple {
+    background-color: rgb(137, 92, 137);
+}
+.pink {
+    background-color: rgb(237, 199, 205);
+}
+.orange {
+    background-color: rgb(255, 207, 118);
+}
+.red {
+    background-color: rgb(255, 113, 113);
+}
+.blue {
+    background-color: rgb(128, 128, 252);
+}
+.light-blue {
+    background-color: lightblue;
+}
+
+.highlight {
+    background-color: rgb(130, 130, 100) !important;
+}
+.neighbor {
+    background-color: rgb(60, 60, 60) !important;
+    box-shadow: 0 0 0 1px rgb(100, 100, 100) !important;
+}
+
+.highlight.candidate {
+    color: white !important;
+}
+
+.candidate {
+    font-size: 0.4em;
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+    pointer-events: none;
+    color: rgb(255, 255, 255, 0.5);
+}
+.candidate-1 {
+    transform: translate(-1em, -1em);
+}
+.candidate-2 {
+    transform: translate(0, -1em);
+}
+.candidate-3 {
+    transform: translate(1em, -1em);
+}
+.candidate-4 {
+    transform: translate(-1em, 0);
+}
+.candidate-5 {
+    transform: translate(0, 0);
+}
+.candidate-6 {
+    transform: translate(1em, 0);
+}
+.candidate-7 {
+    transform: translate(-1em, 1em);
+}
+.candidate-8 {
+    transform: translate(0, 1em);
+}
+.candidate-9 {
+    transform: translate(1em, 1em);
+}
